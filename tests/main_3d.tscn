@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0gae0p31mhf1"]
+
+[ext_resource type="PackedScene" uid="uid://cfv5mt3j4ngmo" path="res://tests/object_3d.tscn" id="1_ohsi8"]
+
+[node name="Main" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Player" parent="." instance=ExtResource("1_ohsi8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.10229)
+
+[node name="Player2" parent="." instance=ExtResource("1_ohsi8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.30298, -4.49958)
+
+[node name="Player3" parent="." instance=ExtResource("1_ohsi8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.93207, -2.55443)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.50305, 0, 0.864257, 0, 1, 0, -0.864257, 0, 0.50305, 5, 0, 8)

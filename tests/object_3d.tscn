@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cfv5mt3j4ngmo"]
+
+[node name="Player" type="Node3D"]
+
+[node name="CSGTorus3D" type="CSGTorus3D" parent="."]

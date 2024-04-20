@@ -29,7 +29,8 @@ about enabling the camera override automatically if:
 
 ## Demo
 
-![showcase video](./docs/showcase.mp4)
+[Showcase video.](https://github.com/manuq/godot_addon_play_centered/assets/83944/59904622-f015-4dcd-b2d5-6d903857e5ca)
+
 
 ## Installation
 

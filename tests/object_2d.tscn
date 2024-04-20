@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://ym7c22tdjxtd"]
 
-[ext_resource type="Texture2D" uid="uid://dcj6i8hnhn1p3" path="res://icon.svg" id="1_le7wn"]
+[ext_resource type="Texture2D" uid="uid://dfpeh1ytky2vr" path="res://icon.png" id="1_gg0lf"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hgb6r"]
 radius = 88.5664
@@ -8,7 +8,7 @@ radius = 88.5664
 [node name="Player" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_le7wn")
+texture = ExtResource("1_gg0lf")
 
 [node name="Area2D" type="Area2D" parent="."]
 

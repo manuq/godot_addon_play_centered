@@ -34,6 +34,8 @@ about enabling the camera override automatically if:
 
 ## Installation
 
+Install it from the [Asset Library](https://godotengine.org/asset-library/asset/2883).
+
 If you've downloaded this manually, do the following:
 
 - Ensure you're using **Godot 4.2 or above**
